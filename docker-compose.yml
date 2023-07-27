@@ -1,0 +1,9 @@
+version: '3'
+services:
+  kali:
+    build: ./
+    volumes: 
+      - ./kali_files:/root
+
+volumes:
+  kali_files:
